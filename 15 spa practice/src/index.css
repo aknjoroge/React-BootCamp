@@ -1,0 +1,91 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  margin: 0;
+  background-color: #e7f8f8;
+}
+
+.centered {
+  text-align: center;
+  margin: 1rem 9rem;
+}
+
+.focused {
+  font-size: 3rem;
+  font-weight: bold;
+  color: white;
+}
+
+.btn {
+  text-decoration: none;
+  background-color: teal;
+  color: white;
+  border-radius: 4px;
+  padding: 0.75rem 1.5rem;
+  border: 1px solid teal;
+  cursor: pointer;
+}
+.btn-basic {
+  text-decoration: none;
+  color: rgb(71, 70, 71);
+  border-radius: 4px;
+  padding: 0.75rem 1.5rem;
+  border: 1px solid teal;
+  cursor: pointer;
+}
+
+.mt {
+  margin-top: 20px;
+}
+.m-10 {
+  margin-bottom: 5rem;
+}
+.mb {
+  margin-bottom: 3rem;
+}
+
+.btn:hover,
+.btn:active {
+  background-color: #11acac;
+  border-color: #11acac;
+}
+
+.btn--flat {
+  cursor: pointer;
+  font: inherit;
+  color: teal;
+  border: none;
+  background-color: none;
+  text-decoration: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 4px;
+}
+
+.btn--flat:hover,
+.btn--flat:active {
+  background-color: teal;
+  color: white;
+}
+.block {
+  display: block;
+  width: 100%;
+}
+
+.error h1,
+.error h2,
+.error p,
+.error h4 {
+  color: red;
+}
+
+.border-none {
+  border: none;
+  color: blue;
+}
+
+.center-right {
+  text-align: right;
+}

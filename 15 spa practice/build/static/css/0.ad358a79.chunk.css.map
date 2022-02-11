@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://src/components/UI/Card.module.css"],"names":[],"mappings":"AAAA,kBACE,YAAa,CACb,WAAY,CACZ,mCAAwC,CACxC,iBAAkB,CAClB,qBACF","file":"0.ad358a79.chunk.css","sourcesContent":[".card {\n  padding: 1rem;\n  margin: 1rem;\n  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);\n  border-radius: 6px;\n  background-color: white;\n}\n"]}
